@@ -10,19 +10,12 @@ void elemento_impar(int []);
 
 int main(void) {
 	int vector[50] = {0};
-	
 	cargar_datos(vector);
-	
 	sumados(vector);
-	
 	multiplicados(vector);
-	
 	mostrar_elementos(vector);
-	
 	elemento_par(vector);
-	
 	elemento_impar(vector);
-	
 	return 0;
 }
 
